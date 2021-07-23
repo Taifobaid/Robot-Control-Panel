@@ -1,0 +1,148 @@
+<html>
+
+<head> 
+    
+   <link rel="stylesheet" href="style.css" >
+    <style>
+.button {
+  background-color:  #555555; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+    
+</head>
+<body>
+       
+    <button class="button button1"> حفظ  </button>
+    <button class="button button2"> تشغيل </button>
+    
+        <div class="main6">
+            <input type="range" min="0" max ="100" value = "50 " id = "slider6">
+            <div id="selector6">
+                <div class="selectBtn6"></div>
+                <div id ="selectvalue6"></div>
+            </div>
+        </div>
+        <script>
+            var slider6= document.getElementById("slider6");
+            var selector6 = document.getElementById("selector6");
+            var selectvalue6 = document.getElementById("selectvalue6");
+            selectvalue6.innerHTML = slider6.value;
+            
+            slider6.oninput = function(){
+                selectvalue6.innerHTML = this.value ;
+                selector6.style.left = this.value + "%";
+            }
+        </script>
+        <div class="main1">
+            <input type="range" min="0" max ="100" value ="50" id="slider1">
+            <div id="selector1">
+                <div class="selectBtn1"></div>
+                <div id ="selectvalue1"></div>
+            </div>
+        </div>
+            <script>
+            var slider1 = document.getElementById("slider1");
+            var selector1 = document.getElementById("selector1");
+            var selectvalue1 = document.getElementById("selectvalue1");
+            selectvalue1.innerHTML = slider1.value;
+                
+            slider1.oninput = function()
+            {
+                selectvalue1.innerHTML = this.value ;
+                selector1.style.left = this.value + "%";
+            }
+        </script>
+        <div class="main2">
+            <input type="range" min="0" max ="100" value ="50" id="slider2">
+            <div id="selector2">
+                <div class="selectBtn2"></div>
+                <div id ="selectvalue2"></div>
+            </div>          
+        </div>
+        <script>
+            var slider2 = document.getElementById("slider2");
+            var selector2 = document.getElementById("selector2");
+            var selectvalue2 = document.getElementById("selectvalue2");
+            selectvalue2.innerHTML = slider2.value;
+            
+            slider2.oninput = function()
+            {
+               selectvalue2.innerHTML = this.value ;
+                selector2.style.left = this.value + "%";
+            }
+        </script>
+        <div class="main3">
+            <input type="range" min="0" max ="100" value ="50" id="slider3">
+            <div id="selector3">
+                <div class="selectBtn3"></div>
+                <div id ="selectvalue3"></div>
+            </div>
+        </div>
+        <script>
+            var slider3 = document.getElementById("slider3");
+            var selector3 = document.getElementById("selector3");
+            var selectvalue3 = document.getElementById("selectvalue3");
+            selectvalue3.innerHTML = slider3.value;
+            
+            
+            slider3.oninput = function()
+            {
+                selectvalue3.innerHTML = this.value ;
+                selector3.style.left = this.value + "%";
+            }
+        </script>
+        <div class="main4">
+            <input type="range" min="0" max ="100" value ="50" id="slider4">
+            <div id="selector4">
+                <div class="selectBtn4"></div>
+                <div id ="selectvalue4"></div>
+            </div>
+        </div>
+        <script>
+            var slider4 = document.getElementById("slider4");
+            var selector4 = document.getElementById("selector4");
+            var selectvalue4 = document.getElementById("selectvalue4");
+            selectvalue4.innerHTML = slider4.value;
+            slider4.oninput = function()
+            {
+                selectvalue4.innerHTML = this.value ;
+                selector4.style.left = this.value + "%";
+            }
+        </script>
+        <div class="main5">
+            <input type="range" min="0" max ="100" value ="50" id="slider5">
+            <div id="selector5">
+                <div class="selectBtn5"></div>
+                <div id ="selectvalue5"></div>
+            </div>
+        </div>
+        <script>
+            var slider5 = document.getElementById("slider5");
+            var selector = document.getElementById("selector5");
+            var selectvalue5 = document.getElementById("selectvalue5");
+            selectvalue5.innerHTML = slider5.value;
+            
+            slider5.oninput = function()
+            {
+                selectvalue5.innerHTML = this.value ;
+                selector5.style.left = this.value + "%";
+            }
+        </script>
+        
+        
+        
+</body>
+
+
+
+</html>
